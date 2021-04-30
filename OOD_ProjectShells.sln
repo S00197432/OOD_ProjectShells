@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOD_ProjectShells", "OOD_ProjectShells.csproj", "{0A6CAD76-27E5-451A-9108-70356D0B736F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManagment", "..\DataManagment\DataManagment.csproj", "{18D9D375-AEE0-498B-8201-DCDB905AE8B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A6CAD76-27E5-451A-9108-70356D0B736F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A6CAD76-27E5-451A-9108-70356D0B736F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A6CAD76-27E5-451A-9108-70356D0B736F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A6CAD76-27E5-451A-9108-70356D0B736F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D9D375-AEE0-498B-8201-DCDB905AE8B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D9D375-AEE0-498B-8201-DCDB905AE8B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D9D375-AEE0-498B-8201-DCDB905AE8B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D9D375-AEE0-498B-8201-DCDB905AE8B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B9C8D12-2AEE-41F3-AA81-4A6B9C20B9EA}
+	EndGlobalSection
+EndGlobal
