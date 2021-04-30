@@ -35,16 +35,16 @@
             </TextBlock.Effect>
         </TextBlock>
         <ListBox x:Name="LBOX_ShellComponents" HorizontalAlignment="Left" Height="331" Margin="544,82,0,0" VerticalAlignment="Top" Width="241" Background="#FF43518D" FontSize="16" SelectionChanged="LBOX_ShellComponents_SelectionChanged"/>
-        <Button x:Name="BTN_Remove" Content="Remove" HorizontalAlignment="Left" Margin="343,267,0,0" VerticalAlignment="Top" Width="75" Background="#FF64A6FF" Click="BTN_Remove_Click" FontWeight="Bold"/>
-        <Button x:Name="BTN_Sve_Copy" Content="FIRE ZE CANNONS!" HorizontalAlignment="Left" Margin="311,380,0,0" VerticalAlignment="Top" Width="143" Background="#FF74D573" FontWeight="Bold" Click="BTN_Sve_Copy_Click"/>
-        <Button x:Name="BTN_Clear" Content="Clear" HorizontalAlignment="Left" Margin="343,317,0,0" VerticalAlignment="Top" Width="75" Background="#FFD68E80" Click="BTN_Clear_Click" FontWeight="Bold"/>
+        <Button x:Name="BTN_Remove" Content="Remove" HorizontalAlignment="Left" Margin="343,163,0,0" VerticalAlignment="Top" Width="75" Background="#FF64A6FF" Click="BTN_Remove_Click" FontWeight="Bold"/>
+        <Button x:Name="BTN_Sve_Copy" Content="FIRE ZE CANNONS!" HorizontalAlignment="Left" Margin="312,252,0,0" VerticalAlignment="Top" Width="143" Background="#FF74D573" FontWeight="Bold" Click="BTN_Sve_Copy_Click"/>
+        <Button x:Name="BTN_Clear" Content="Clear" HorizontalAlignment="Left" Margin="343,201,0,0" VerticalAlignment="Top" Width="75" Background="#FFD68E80" Click="BTN_Clear_Click" FontWeight="Bold"/>
         <TextBox HorizontalAlignment="Left" Height="66" Margin="356,216,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="154" Visibility="Hidden"/>
         <TextBlock HorizontalAlignment="Left" Margin="216,2,0,0" TextWrapping="Wrap" Text="From The Depths" VerticalAlignment="Top" Height="67" Width="346" FontSize="48" FontWeight="Bold" FontStyle="Italic" TextDecorations="{x:Null}" FontFamily="Impact" Foreground="White">
             <TextBlock.Effect>
                 <DropShadowEffect Color="#FF38A1E6"/>
             </TextBlock.Effect>
         </TextBlock>
-        <Button x:Name="BTN_ShellExamples" Content="Shell Examples" HorizontalAlignment="Left" Margin="334,82,0,0" VerticalAlignment="Top" Width="98" Background="#FF6400FF" FontWeight="Bold" RenderTransformOrigin="0.801,0.22" Click="BTN_ShellExamples_Click"/>
+        <Button x:Name="BTN_ShellExamples" Content="Shell Examples" HorizontalAlignment="Left" Margin="331,93,0,0" VerticalAlignment="Top" Width="98" Background="#FF6400FF" FontWeight="Bold" RenderTransformOrigin="0.801,0.22" Click="BTN_ShellExamples_Click"/>
         <TabControl x:Name="TAB_SHELLexamples" HorizontalAlignment="Left" Height="241" Margin="242,154,0,0" VerticalAlignment="Top" Width="290" Visibility="Hidden">
             <TabItem x:Name="TB_HEexample" Header="HE Shell" GotFocus="TB_HEexample_GotFocus">
                 <Grid Background="#FFE5E5E5">
@@ -72,7 +72,7 @@
                 </Grid>
             </TabItem>
         </TabControl>
-        <MediaElement x:Name="VIDFIRE" HorizontalAlignment="Left" Height="135" Margin="269,107,0,0" VerticalAlignment="Top" Width="241" Source="Firing.mp4" UnloadedBehavior="Manual" LoadedBehavior="Manual" StretchDirection="DownOnly"/>
+        <MediaElement x:Name="VIDFIRE" HorizontalAlignment="Left" Height="113" Margin="312,282,0,0" VerticalAlignment="Top" Width="143" LoadedBehavior="Manual" Source="Video/Firing.mp4" UnloadedBehavior="Manual" Stretch="UniformToFill" ScrubbingEnabled="True"/>
 
     </Grid>
 </Window>

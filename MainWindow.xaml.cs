@@ -16,7 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml.Linq;
-using System.IO;
+
 
 
 namespace OOD_ProjectShells
@@ -43,6 +43,7 @@ namespace OOD_ProjectShells
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
+
             var query = from c in db.Components
                         select c;
 
@@ -172,10 +173,25 @@ namespace OOD_ProjectShells
         public bool VidVisible = false;
         private void BTN_Sve_Copy_Click(object sender, RoutedEventArgs e)
         {
-            VIDFIRE.Visibility = Visibility.Visible;
-            VIDFIRE.Play();
-            
+            if(VidVisible == false)
+            {
 
+                VIDFIRE.Visibility = Visibility.Visible;             
+                VIDFIRE.Play();             
+                VidVisible = true;
+            }
+            else
+            {
+                VIDFIRE.Visibility = Visibility.Hidden;
+                VIDFIRE.Close();
+                VidVisible = false;
+            }
+            
+          
+            
+            
         }
+
+       
     }
 }

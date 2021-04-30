@@ -128,7 +128,6 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Firing.mp4" />
-    <Resource Include="Iphone3GS.jpg" />
     <Content Include="Video\Firing.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
