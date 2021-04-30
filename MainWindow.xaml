@@ -5,11 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OOD_ProjectShells"
         mc:Ignorable="d"
+        
+        
         Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
 
 
 
     <Grid>
+
         <Image x:Name="ShipImage" HorizontalAlignment="Left" Height="424" Margin="-1,-3,0,0" VerticalAlignment="Top" Width="795" Source="FTD Cannon firing.jpg" RenderTransformOrigin="0.5,0.5" Stretch="Fill" IsHitTestVisible="True">
             <Image.RenderTransform>
                 <TransformGroup>
@@ -72,7 +75,7 @@
                 </Grid>
             </TabItem>
         </TabControl>
-        <MediaElement x:Name="VIDFIRE" HorizontalAlignment="Left" Height="113" Margin="312,282,0,0" VerticalAlignment="Top" Width="143" LoadedBehavior="Manual" Source="Video/Firing.mp4" UnloadedBehavior="Manual" Stretch="UniformToFill" ScrubbingEnabled="True"/>
+        <TextBox x:Name="TXTVID" HorizontalAlignment="Left" Height="83" Margin="285,330,0,0" TextWrapping="Wrap" Text="Go To This Link To View Video:&#xD;&#xA;&#xD;&#xA;https://www.youtube.com/watch?v=NvLbYl_PIB8" VerticalAlignment="Top" Width="184" Visibility="Hidden"/>
 
     </Grid>
 </Window>

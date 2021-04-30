@@ -170,21 +170,21 @@ namespace OOD_ProjectShells
             LBOX_SABOTExample.ItemsSource = SabotshellExample;
         }
 
-        public bool VidVisible = false;
+        public bool TXTVisible = false;
         private void BTN_Sve_Copy_Click(object sender, RoutedEventArgs e)
         {
-            if(VidVisible == false)
+            if(TXTVisible == false)
             {
 
-                VIDFIRE.Visibility = Visibility.Visible;             
-                VIDFIRE.Play();             
-                VidVisible = true;
+                TXTVID.Visibility = Visibility.Visible;
+
+                TXTVisible = true;
             }
             else
             {
-                VIDFIRE.Visibility = Visibility.Hidden;
-                VIDFIRE.Close();
-                VidVisible = false;
+                TXTVID.Visibility = Visibility.Hidden;
+                
+                TXTVisible = false;
             }
             
           
